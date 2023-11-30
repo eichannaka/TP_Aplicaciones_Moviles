@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TP_Aplicacion_Movil</string>
     <string name="Bienvenidos">Bienvenidos</string>
+    <string name="Olvidaste_Contraseña">Olvidaste tu contraseña?</string>
 </resources>

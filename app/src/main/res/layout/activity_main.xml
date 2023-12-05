@@ -184,7 +184,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/idPierna"
+                        android:id="@+id/idTriceps"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
@@ -212,7 +212,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/idPierna"
+                        android:id="@+id/idTriceps"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"

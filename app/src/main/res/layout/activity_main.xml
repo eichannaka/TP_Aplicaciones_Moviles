@@ -96,13 +96,16 @@
                         android:id="@+id/idPecho"
                         android:layout_width="150sp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
                         android:src="@drawable/pecho" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:id="@+id/id_txPecho"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Pecho"
                         android:textAlignment="center"
@@ -122,14 +125,16 @@
                         android:id="@+id/idEspalda"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/espalda" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/id_txEspalda"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Espalda"
                         android:textAlignment="center"
@@ -147,17 +152,19 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/idBiceps"
+                        android:id="@+id/idAbdominales"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
                         android:src="@drawable/zonamedia" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/id_txAbdominales"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Abdominales"
                         android:textAlignment="center"
@@ -184,17 +191,19 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/idTriceps"
+                        android:id="@+id/idPierna"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/pierna" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/id_txPierna"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Pierna"
                         android:textAlignment="center"
@@ -215,21 +224,22 @@
                         android:id="@+id/idTriceps"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/tricep" />
+                        android:src="@drawable/tricep" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/id_txTriceps"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Triceps"
                         android:textAlignment="center"
                         android:textColor="#130D0D"
                         android:textStyle="bold"
                         android:typeface="sans" />
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -240,24 +250,25 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/idBiceps"
+                        android:id="@+id/imageButton2"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:background="#838A95"
                         android:scaleType="centerCrop"
                         android:src="@drawable/brazo" />
 
                     <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/id_txBiceps"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:background="#F44336"
                         android:fontFamily="sans-serif"
                         android:text="Biceps"
                         android:textAlignment="center"
                         android:textColor="#130D0D"
                         android:textStyle="bold"
                         android:typeface="sans" />
-
                 </LinearLayout>
 
             </LinearLayout>

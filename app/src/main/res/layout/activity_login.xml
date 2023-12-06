@@ -65,7 +65,7 @@
             app:layout_constraintVertical_bias="1.0">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/id_btn_inicioSesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -107,7 +107,7 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/idContraET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -121,13 +121,13 @@
             app:layout_constraintVertical_bias="0.060000002" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress2"
+            android:id="@+id/idMailET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Ingresar Mail"
             android:inputType="textEmailAddress"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+            app:layout_constraintBottom_toTopOf="@+id/idContraET"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/linearLayout3"

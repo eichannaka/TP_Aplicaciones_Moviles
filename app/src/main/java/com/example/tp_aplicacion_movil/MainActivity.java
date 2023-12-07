@@ -6,10 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import androidx.appcompat.app.AppCompatActivity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
@@ -80,29 +76,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        Button btnAgregarRegistro = findViewById(R.id.btnAgregarRegistro);
-        Button btnRegistroActividades = findViewById(R.id.btnRegistroActividades);
-
-        btnAgregarRegistro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Configurar intent para iniciar la actividad AgregarRegistro
-                Intent intent = new Intent(MainActivity.this, RegistroAgregar.class);
-                startActivity(intent);
-            }
-        });
-
-        btnRegistroActividades.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Configurar intent para iniciar la actividad RegistroActividades
-                Intent intent = new Intent(MainActivity.this, RegistroActividad.class);
-                startActivity(intent);
-            }
-        });
     }
-
+    public void goToRegistroActividadesLayout(View view) {
+        Intent intent = new Intent(MainActivity.this, RegistroActivity.class);
+        startActivity(intent);
+    }
 
     // Otro código de la actividad
 

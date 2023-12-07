@@ -87,19 +87,12 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <Button
-                android:id="@+id/btnAgregarRegistro"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="goToAgregarRegistroLayout"
-                android:text="Agregar Registro" />
-
-            <Button
-                android:id="@+id/btnRegistroActividades"
+                android:id="@+id/btnRegistros"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:onClick="goToRegistroActividadesLayout"
-                android:text="Registro de Actividades" />
+                android:text="Registro de Actividades"
+                android:onClick="goToRegistroActividadesLayout" />
         </LinearLayout>
 
         <LinearLayout

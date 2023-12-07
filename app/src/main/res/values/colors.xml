@@ -6,5 +6,7 @@
     <color name="colorFondo">#AA3E3E</color>
     <color name="colorRegistro">#CD9595</color>
     <color name="fondo">#838A95</color>
+    <color name="header">#BD5C5C</color>
+
 
 </resources>

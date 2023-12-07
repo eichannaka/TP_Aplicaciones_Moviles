@@ -46,7 +46,7 @@
             android:id="@+id/id_btn_back_button"
             android:layout_width="28dp"
             android:layout_height="29dp"
-            android:background="#F16868"
+            android:background="@color/header"
             android:scaleType="centerCrop"
             android:src="@drawable/back_button" />
 

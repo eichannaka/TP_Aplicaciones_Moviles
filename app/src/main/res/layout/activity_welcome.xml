@@ -45,7 +45,7 @@
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="#BD5C5C"
+        android:background="@color/header"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:padding="10dp"

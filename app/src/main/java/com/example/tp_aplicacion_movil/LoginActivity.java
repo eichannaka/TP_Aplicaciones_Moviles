@@ -21,7 +21,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // Referencias a los elementos del diseño XML
         emailEditText = findViewById(R.id.idMailET);
         passwordEditText = findViewById(R.id.idContraET);
         loginButton = findViewById(R.id.id_btn_inicioSesion);
@@ -38,10 +37,10 @@ public class LoginActivity extends AppCompatActivity {
                     // Mostrar mensaje de advertencia
                     Toast.makeText(LoginActivity.this, "Tenes que completar ambos campos", Toast.LENGTH_SHORT).show();
                 } else {
-                    // Ambos campos están completos, proceder a la actividad principal
+                    // Ambos campos están completos,se procede a la actividad principal
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
-                    // Aquí podrías agregar lógica adicional si es necesario
+
                 }
             }
         });

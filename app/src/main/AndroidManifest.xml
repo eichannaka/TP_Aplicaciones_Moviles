@@ -24,6 +24,11 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PechoEjercicio" />
+        <activity android:name=".TricepsEjercicio" />
+        <activity android:name=".PiernaEjercicio" />
+        <activity android:name=".EspaldaEjercicio" />
+        <activity android:name=".BicepsEjercicio" />
+        <activity android:name=".AbdominalesEjercicio" />
 
     </application>
 

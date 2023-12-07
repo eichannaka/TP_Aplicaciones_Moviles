@@ -79,5 +79,16 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    // Otro código de la actividad principal
+
+    public void goToAgregarRegistroLayout(View view) {
+        Intent intent = new Intent(this, RegistroFuncionalidad.class);
+        startActivity(intent);
+    }
+
+    public void goToRegistroActividadesLayout(View view) {
+        Intent intent = new Intent(this, RegistroFuncionalidad.class);
+        startActivity(intent);
+    }
+    // Otro código de la actividad
+
 }

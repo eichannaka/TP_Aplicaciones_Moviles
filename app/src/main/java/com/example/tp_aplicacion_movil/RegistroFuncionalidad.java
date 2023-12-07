@@ -18,6 +18,7 @@ public class RegistroFuncionalidad extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.agregar_registro);
+        setContentView(R.layout.registro_actividades);
 
         editTextTitulo = findViewById(R.id.editTextTitulo);
         editTextDescripcion = findViewById(R.id.editTextDescripcion);

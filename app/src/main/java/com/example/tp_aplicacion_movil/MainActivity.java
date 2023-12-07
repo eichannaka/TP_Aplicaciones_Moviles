@@ -89,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RegistroFuncionalidad.class);
         startActivity(intent);
     }
+
+
     // Otro código de la actividad
 
 }

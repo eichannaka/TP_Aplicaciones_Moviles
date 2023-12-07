@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Encuentra tus ImageButtons por sus IDs
+        // ImageButtons de los musculos por sus IDs
         ImageButton btnPecho = findViewById(R.id.idPecho);
         ImageButton btnPierna = findViewById(R.id.idPierna);
         ImageButton btnEspalda = findViewById(R.id.idEspalda);

@@ -30,8 +30,7 @@
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            tools:ignore="RtlCompat" />
+            android:textSize="30sp" />
 
         <!-- ImageView -->
         <ImageView

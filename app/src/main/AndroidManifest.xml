@@ -30,8 +30,8 @@
         <activity android:name=".BicepsEjercicio" />
         <activity android:name=".AbdominalesEjercicio" />
 
-        <activity android:name=".AgregarRegistroActivity"/>
-        <activity android:name=".RegistroActividadesActivity"/>
+        <activity android:name=".RegistroAgregar"/>
+        <activity android:name=".RegistroActividad"/>
 
     </application>
 

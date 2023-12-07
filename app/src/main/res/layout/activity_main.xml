@@ -54,27 +54,6 @@
     <!-- Otros elementos existentes -->
 
         <!-- Botones nuevos -->
-        <Button
-            android:id="@+id/btnAgregarRegistro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Agregar Registro"
-            android:onClick="goToAgregarRegistroLayout"
-            app:layout_constraintBottom_toTopOf="@id/linearLayout2"
-            app:layout_constraintEnd_toStartOf="@id/btnRegistroActividades"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/linearLayout4" />
-
-        <Button
-            android:id="@+id/btnRegistroActividades"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Registro de Actividades"
-            android:onClick="goToRegistroActividadesLayout"
-            app:layout_constraintBottom_toTopOf="@id/linearLayout2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/btnAgregarRegistro"
-            app:layout_constraintTop_toBottomOf="@id/linearLayout4" />
 
     <!-- Resto del diseño -->
 
@@ -86,12 +65,43 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
         <!-- Row 1 -->
+        <!-- Botones -->
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btnAgregarRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goToAgregarRegistroLayout"
+                android:text="Agregar Registro" />
+
+            <Button
+                android:id="@+id/btnRegistroActividades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="goToRegistroActividadesLayout"
+                android:text="Registro de Actividades" />
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="0dp"
